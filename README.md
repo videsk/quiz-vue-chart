@@ -20,6 +20,8 @@ We need you can plot a simple JSON that's received by a REST API endpoint in a c
 
 The idea is see how you manage asynchronous functions and plot the data. The endpoint where you need do a `GET` method is `/5e975f3d2940c704e1d8be6a`.
 
+**The complete endpoint is `https://api.jsonbin.io/b/5e975f3d2940c704e1d8be6a`, but axios is configured for send request with necessary headers.** (If you want see how, go to `axios.js` file).
+
 The endpoint return a JSON schema with:
 
 ```js
